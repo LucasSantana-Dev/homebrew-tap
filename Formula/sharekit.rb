@@ -2,27 +2,27 @@ class Sharekit < Formula
   desc "Share your AI coding setup — install profiles from GitHub with one command"
   homepage "https://github.com/LucasSantana-Dev/sharekit"
   license "MIT"
-  version "0.6.2"
+  version "0.6.3"
 
   on_macos do
     on_arm do
-      url "https://github.com/LucasSantana-Dev/sharekit/releases/download/v0.6.2/sharekit-macos-arm64"
-      sha256 "0efd496c4b09b92b2aa34cfcf0f4aa1fbe001a1c3f436ce7f88b2bf1c0a5315a"
+      url "https://github.com/LucasSantana-Dev/sharekit/releases/download/v0.6.3/sharekit-macos-arm64"
+      sha256 "6206aa5c3ca8d75940a5556140e3fd80310d9b0fa33d3481f4b1657da3081227"
     end
     on_intel do
-      url "https://github.com/LucasSantana-Dev/sharekit/releases/download/v0.6.2/sharekit-macos-x64"
-      sha256 "219dcfe018f2b0f0f64cd6dce2e7a3f7385d7d5166102d0a95293fadb6d5bcf9"
+      url "https://github.com/LucasSantana-Dev/sharekit/releases/download/v0.6.3/sharekit-macos-x64"
+      sha256 "1ca0fca09d3241e7f413a9c7f06b17ac8e2b6483df709baa9695f119ed9510a1"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/LucasSantana-Dev/sharekit/releases/download/v0.6.2/sharekit-linux-arm64"
-      sha256 "ba0b7b1a21b932584436599d8491b9bf6fa98cf88d04356cb8ac81fc75bc738d"
+      url "https://github.com/LucasSantana-Dev/sharekit/releases/download/v0.6.3/sharekit-linux-arm64"
+      sha256 "8fc780ed5a51720fb4c9b79b0480c3b12f34b86daf39bc15576f61c4c35313da"
     end
     on_intel do
-      url "https://github.com/LucasSantana-Dev/sharekit/releases/download/v0.6.2/sharekit-linux-x64"
-      sha256 "b1742a31ebab36b1bfbe118e5c5bbff83c509739c0ced304f05353a808d477f2"
+      url "https://github.com/LucasSantana-Dev/sharekit/releases/download/v0.6.3/sharekit-linux-x64"
+      sha256 "81b2249f5f353b7c7654a35be7565e74eda21b7ed24d686ae53f39830443c1a6"
     end
   end
 
